@@ -1,0 +1,36 @@
+.menu-separator {
+    display: none !important;
+}
+
+#mode {
+    display: none !important;
+}
+
+html:not([data-dark-mode]) svg:has(image) {
+    filter: none !important;
+}
+
+pre[class*=language-] {
+    background-image: linear-gradient(to right, #131418, #1a1b1b) !important;
+}
+
+.wrapper {
+    max-width: calc(920px - (30px * 2)) !important;
+}
+
+nav > .logo svg {
+    height: 15px;
+    width: 30px;
+}
+
+html.dark table th {
+    text-align: start !important;
+}
+
+main {
+    margin-bottom: 40px !important;
+}
+
+code[class*="language-"] {
+    background: transparent !important;
+}

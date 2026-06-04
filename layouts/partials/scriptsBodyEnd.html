@@ -31,3 +31,12 @@
         <script async src="{{  $custom.Permalink }}" ></script>
     {{ end }}
 {{ end }}
+
+<!-- Prism.js Core -->
+<script src="{{ "/js/prism-core.min.js" | relURL }}"></script>
+
+<!-- Custom Mine language support -->
+<script src="{{ "/js/prism-mine.js" | relURL }}"></script>
+
+<!-- Prism auto-loader for additional languages -->
+<script src="{{ "/js/prism/prism-autoloader.min.js" | relURL }}" data-autoloader-path="{{ "/js/prism/" | relURL }}"></script>
