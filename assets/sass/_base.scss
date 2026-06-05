@@ -85,10 +85,17 @@ b {
 }
 
 // horizontal rule
+// hr {
+//   border-bottom: 0;
+//   border-style: solid;
+//   border-color: $light;
+// }
+
 hr {
-  border-bottom: 0;
-  border-style: solid;
-  border-color: $light;
+    margin: 1rem 0 !important;
+    color: inherit !important;
+    border-top: 1px solid !important;
+    opacity: 0.1 !important;
 }
 
 // Image

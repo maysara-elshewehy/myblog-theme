@@ -18,13 +18,13 @@
   table {
     thead {
       color: $dark-white;
-      border-color: $dark-light;
+      border-color: $border-color;
     }
 
     th,
     td,
     tr {
-      border-color: $dark-light;
+      border-color: $border-color;
     }
   }
 
@@ -41,7 +41,7 @@
     }
 
     h3 {
-      border-color: $dark-light;
+      border-color: $border-color;
     }
 
     h1,
@@ -92,7 +92,7 @@
 
   // horizontal rule
   hr {
-    border-color: $dark-light;
+    border-color: $border-color;
   }
 
   // Post Meta
@@ -106,7 +106,7 @@
     }
 
     span[itemprop="author"] {
-      border-color: $dark-light;
+      border-color: $border-color;
     }
   }
 
@@ -145,7 +145,7 @@
 
   // Navbar
   .navbar {
-    border-color: $dark-light;
+    border-color: $border-color;
 
     .menu {
       a#mode {
@@ -164,7 +164,7 @@
 
       @include media-query($on-mobile) {
         background-color: $dark-black;
-        border-color: $dark-light;
+        border-color: $border-color;
 
         input[type="checkbox"]:checked~.trigger {
           background: $dark-black;
@@ -176,7 +176,7 @@
   // Post Item
   .post-item {
     &:not(:first-child) {
-      border-color: $dark-light;
+      border-color: $border-color;
     }
 
     .post-item-date {
@@ -197,7 +197,7 @@
 
   // Post Navigation
   .post-nav {
-    border-color: $dark-light;
+    border-color: $border-color;
 
     .post-nav-item {
       font-weight: $bold-weight;
@@ -221,7 +221,7 @@
 
     @include media-query($on-mobile) {
       .post-nav-item:nth-child(even) {
-        border-color: $dark-light;
+        border-color: $border-color;
       }
     }
   }
