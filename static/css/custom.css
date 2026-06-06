@@ -45,3 +45,13 @@ td code {
     border-radius: 2px;
     border: 1px solid rgba(128, 128, 128, .1);
 }
+
+.page-content>p:not(:first-of-type) {
+    padding-top: 10px !important;
+}
+
+
+.page-content>p {
+    padding-top: 0px;
+    padding-bottom: 0px !important;
+}
